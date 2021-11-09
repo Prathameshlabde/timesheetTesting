@@ -1,0 +1,24 @@
+{
+  "subMenu": [
+    {
+      "subMenuName": "Projects",
+      "linkTo": "/projects/projectsModule"
+    },
+    {
+      "subMenuName": "Tasks",
+      "linkTo": "/projects/tasksModule"
+    },
+    {
+      "subMenuName": "Subtasks",
+      "linkTo": "/projects/subtasksModule"
+    },
+    {
+      "subMenuName": "Sprints",
+      "linkTo": "/projects/sprintsModule"
+    },
+    {
+      "subMenuName": "Categories",
+      "linkTo": "/projects/categoriesModule"
+    }
+  ]
+}

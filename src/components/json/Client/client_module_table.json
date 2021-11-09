@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Name"
+            }
+          ],
+          "style": {
+            "width": "50%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "User Name"
+            }
+          ],
+          "style": {
+            "width": "30%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Company"
+            }
+          ],
+          "style": {
+            "width": "30%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": {
+            "width": "30%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Delete"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "name"
+            }
+          ],
+          "style": { "width": "50%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "user_name"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "company_name"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "project_list"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "id"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "deleteButton",
+          "fieldName": "id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Category"
+            }
+          ],
+          "style": {
+            "width": "50%"
+          },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "c.category_name"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Used For"
+            }
+          ],
+          "style": {
+            "width": "30%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Delete"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "name"
+            }
+          ],
+          "style": { "width": "50%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "for_task_sprint"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "id"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "deleteButton",
+          "fieldName": "id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

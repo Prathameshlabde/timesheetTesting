@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Title"
+            }
+          ],
+          "style": {
+            "width": "30%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Leave Details"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Comments"
+            }
+          ],
+          "style": {
+            "width": "45%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Title"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Leave Details"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Comments"
+            }
+          ],
+          "style": {
+            "width": "45%"
+          },
+          "type": "text",
+          "isDescription": false
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

@@ -1,0 +1,139 @@
+.app-sideBar {
+  background-color: #151718;
+  width: 15%;
+  z-index: 99;
+  min-height: 100vh;
+}
+
+.app-sideBar-upperDrawer {
+  height: 70px;
+  width: 20%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.app-sideBar-lowerDrawer {
+  text-align: left;
+}
+
+.listClass {
+  color: darkgray;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  border-bottom: 1px solid rgb(58, 57, 57);
+  cursor: pointer;
+  list-style-type: none;
+  padding-left: 10%;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.listClass:hover {
+  color: white;
+  background: #054770 radial-gradient(circle, transparent 1%, #054770 1%)
+    center/15000%;
+}
+
+.listClass:hover i {
+  color: white;
+}
+
+.listClass:active {
+  background-color: #054770;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.report-menu-projects {
+  position: absolute;
+  z-index: 1;
+  left: 15%;
+  /* top: 17.4%; */
+  background-color: #151718;
+  width: 15%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-fill-mode: initial;
+}
+
+.report-menu-leave {
+  position: absolute;
+  z-index: 1;
+  left: 15%;
+  /* top: 49.4%; */
+  background-color: #151718;
+  width: 15%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-fill-mode: initial;
+}
+
+#pr-menu .submenu {
+  width: 240px;
+  visibility: hidden;
+  transform: translateX(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  left: 15%;
+  margin-top: -4%;
+  transition: background 0.8s;
+}
+
+#pr-menu .submenu :hover {
+  color: white;
+  background: #054770 radial-gradient(circle, transparent 1%, #054770 1%)
+    center/15000%;
+}
+
+/* #pr-menu .submenu:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+} */
+
+#pr-menu a:hover .submenu {
+  visibility: visible;
+  transform: translateX(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+#pr-menu .pr-active {
+  background: #054770 !important;
+  color: white !important;
+}
+
+.highlightIcon i {
+  color: white;
+}
+
+#pr-menu .pr-hide-submenu {
+  display: none;
+}
+
+.submenu-arrow-icon {
+  float: right;
+  transform: "rotate(-90deg)";
+}
+@media screen and (max-height: 750px) {
+  #pr-menu .report-menu {
+    margin-top: -180px;
+  }
+
+  #pr-menu .report-menu-leave {
+    margin-top: -100px;
+  }
+}
+
+.repEmpSubMenu {
+  margin-top: -50px !important;
+}

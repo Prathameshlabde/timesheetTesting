@@ -1,0 +1,21 @@
+.main-container {
+  z-index: 3;
+  width: 93%;
+  height: 100%;
+  background-color: #0000005c;
+  position: fixed;
+  right: 0%;
+  left: 9%;
+  top: 0;
+}
+
+.main-container-override {
+  z-index: 3;
+  width: 93%;
+  height: 100%;
+  background-color: #0000005c;
+  position: fixed;
+  /* right: 0%; */
+  /* left: 9%; */
+  /* top: 0; */
+}

@@ -1,0 +1,26 @@
+{
+  "subMenu": [
+    {
+      "subMenuName": "User Entries",
+      "linkTo": "/UserEntries"
+    },
+    {
+      "subMenuName": "Custom Report"
+    },
+    {
+      "subMenuName": "Reference Number Report"
+    },
+    {
+      "subMenuName": "Reference Number Report"
+    },
+    {
+      "subMenuName": "Review Entries"
+    },
+    {
+      "subMenuName": "Task Report"
+    },
+    {
+      "subMenuName": "Summary Report"
+    }
+  ]
+}

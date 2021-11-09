@@ -1,0 +1,135 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "#"
+            }
+          ],
+          "style": {
+            "width": "12%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Date"
+            }
+          ],
+          "style": {
+            "width": "20%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Description"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Type"
+            }
+          ],
+          "style": { "width": "12%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Delete"
+            }
+          ],
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "index"
+            }
+          ],
+          "style": { "width": "12%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "holi_date"
+            }
+          ],
+          "style": {
+            "width": "20%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "holi_desc"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "type"
+            }
+          ],
+          "style": { "width": "12%" },
+          "type": "text"
+        },
+        {
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "id"
+        },
+        {
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "deleteButton",
+          "fieldName": "id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

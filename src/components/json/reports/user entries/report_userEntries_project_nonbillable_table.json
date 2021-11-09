@@ -1,0 +1,161 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": {
+            "width": "15%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Finish"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Description"
+            }
+          ],
+          "style": {
+            "width": "40%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Reference Number"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Non Billable"
+            }
+          ],
+          "style": { "width": "8%", "textAlign": "right" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "pname"
+            }
+          ],
+          "style": {
+            "width": "15%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "billing_date"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "start_time"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "end_time"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "description"
+            }
+          ],
+          "style": { "width": "40%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "ref_no"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "non_bilable_hrs"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "8%" },
+          "type": "text"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

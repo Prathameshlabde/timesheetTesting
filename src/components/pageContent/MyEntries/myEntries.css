@@ -1,0 +1,309 @@
+.page-content-clients,
+.page-content-holidays,
+.page-content-reports,
+.page-content-requisition {
+  background-color: #ffffff;
+  /* width: 100%; */
+  height: 90%;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+
+.page-content-newEntry {
+  background-color: #1236;
+  width: 100%;
+  height: 100%;
+}
+
+.page-content-overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .page-content-dashboard-margin {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .span-label {
+  color: #80807d;
+  font-size: 14px;
+} */
+
+.dashboard-section1 {
+  height: 8%;
+
+  display: flex;
+  margin-left: 3%;
+  padding-top: 1%;
+}
+
+.dashboard-section2 {
+  height: 10%;
+  display: flex;
+  background-color: #ffffff;
+  padding: 0 3%;
+}
+
+.dashboard-section3 {
+  height: 10%;
+  display: flex;
+  /* background-color: #aaaaaa; */
+}
+
+.dashboard-section4 {
+  height: 69%;
+  display: flex;
+  padding-left: 2.9%;
+  padding-right: 3.7%;
+  /* background-color: #aaaaaa; */
+}
+.dashboard-section5 {
+  height: 69%;
+  display: flex;
+  padding-left: 2.9%;
+  padding-right: 3.7%;
+  overflow: auto;
+  vertical-align: middle;
+  margin-left: 76%;
+  /* background-color: #aaaaaa; */
+}
+/* .active-currentPage {
+  background-color: deepskyblue;
+} */
+.pagination {
+  /* display: inline-block; */
+  list-style: none;
+  display: -webkit-inline-box;
+  float: right;
+}
+
+.dashboard-section1-day {
+  color: #363635;
+  font-size: 24px;
+}
+
+.dashboard-section1-date {
+  color: #192028;
+  font-size: 23px;
+  margin-left: 0.8%;
+}
+
+.dashboard-section2-left {
+  width: 89%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-section3-week-bar {
+  box-shadow: rgb(190, 190, 190) 1px 1px 5px -1px;
+  background-color: #eee;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+
+  /* flex-direction: column; */
+}
+
+.dashboard-section3-week-bar-date1,
+.dashboard-section3-week-bar-date2,
+.dashboard-section3-week-bar-date3,
+.dashboard-section3-week-bar-date4,
+.dashboard-section3-week-bar-date5,
+.dashboard-section3-week-bar-date6,
+.dashboard-section3-week-bar-date7 {
+  width: 12%;
+  height: 100%;
+  border-right: 1px solid #dbdbdb;
+  text-align: center;
+  font-size: 14px;
+}
+.dashboard-section3-week-bar-date1:hover,
+.dashboard-section3-week-bar-date2:hover,
+.dashboard-section3-week-bar-date3:hover,
+.dashboard-section3-week-bar-date4:hover,
+.dashboard-section3-week-bar-date5:hover,
+.dashboard-section3-week-bar-date6:hover,
+.dashboard-section3-week-bar-date7:hover,
+.dashboard-section3-week-bar-date2:hover {
+  color: #054770;
+  background-color: E6EBED;
+  cursor: pointer;
+}
+.dashboard-section3-week-bar-button-left {
+  width: 3%;
+  height: 100%;
+  text-align: center;
+  background-color: #88888812;
+}
+
+.dashboard-section3-week-button {
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  font-size: 50px;
+  color: #054770;
+  outline: none;
+  border: none;
+  background-color: #88888812;
+  width: 100%;
+}
+.dashboard-section3-week-button:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.dayname {
+  /* margin-left: 15%; */
+  margin-top: 8%;
+}
+
+.dayhours {
+  /* margin-left: 15%; */
+  display: block;
+}
+
+.daynameSpan {
+  color: #192028;
+}
+
+.dayhoursSpan {
+  color: #192028;
+}
+
+.dashboard-section3-week-bar-totalTime {
+  width: 12%;
+  text-align: center;
+  border-left: 1px solid #dbdbdb;
+}
+
+/* .dashboard-second-left-span {
+  font-size: "50px";
+} */
+
+.dashboard-section2-left-projects {
+  width: 100%;
+  margin-top: 1%;
+}
+
+.dropDownClass {
+  width: 90%;
+}
+
+.dashboard-section2-left-projects-dropdown {
+  height: 25%;
+}
+
+.dashboard-section2-left-daterange {
+  width: 25%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.dashboard-section2-left-hidden-datepickers {
+  width: 50%;
+  margin-top: 1%;
+  display: inline-flex;
+  margin-left: 1%;
+  vertical-align: top;
+}
+
+.dashboard-section2-left-startdate {
+  width: 95%;
+  /* height: 30%; */
+}
+
+.dashboard-section2-left-datepicker {
+  width: 95%;
+  height: 30px;
+}
+.dashboard-left-datepicker {
+  width: 90%;
+  text-align-last: center;
+  box-shadow: rgb(190, 190, 190) 1px 1px 2px -1px;
+  border: 1px solid #e6ebed;
+  height: 27px;
+}
+.dashboard-left-datepicker input {
+  border: none;
+  background: #fff;
+  /* display: block; */
+  width: 100%;
+  height: 27px;
+  box-sizing: border-box;
+  /* padding: 7%; */
+  font-size: 12px;
+  text-align: left;
+  padding-right: 40%;
+  color: #495057;
+}
+
+.dashboard-section2-left-enddate {
+  width: 95%;
+}
+
+.dashboard-section2-left-selectbutton {
+  width: 15%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.dashboard-section2-right {
+  text-align: right;
+  width: 10%;
+}
+
+.dashboard-section2-right-span {
+  color: #45b336;
+  font-size: 12px;
+  padding-left: "8%";
+  cursor: pointer;
+  height: 20%;
+}
+
+.dashboard-section2-right i {
+  color: #767676;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+.dashboard-section3-week-bar-chart {
+  text-align: center;
+  border-left: 1px solid #dbdbdb;
+}

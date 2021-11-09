@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Team Name"
+            }
+          ],
+          "style": {
+            "width": "16%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Technology"
+            }
+          ],
+          "style": {
+            "width": "16%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Active/InActive"
+            }
+          ],
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "team_name"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "tech_name"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "team_id"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "status_flag"
+            },
+            {
+              "fieldName": "team_id"
+            }
+          ],
+          "style": {
+            "width": "12%",
+            "textAlign": "center"
+          },
+          "type": "switchButton"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

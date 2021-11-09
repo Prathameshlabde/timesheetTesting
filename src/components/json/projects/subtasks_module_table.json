@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Ref. No."
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "t.task_ref_no"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Title"
+            }
+          ],
+          "style": {
+            "width": "11%"
+          },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "t.task_title"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Description"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": { "width": "11%" },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "p.pname"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Parent Task"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Category"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start Date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "End Date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "t.task_end_date"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Estimated"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Status"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center", "width": "10%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Delete"
+            }
+          ],
+          "style": { "textAlign": "center", "width": "10%" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "task_ref_no"
+            }
+          ],
+          "style": { "width": "10%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "name"
+            }
+          ],
+          "style": { "width": "11%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "short_desc"
+            }
+          ],
+          "style": { "width": "9%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "pname"
+            }
+          ],
+          "style": { "width": "11%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "parent_task_name"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "category_name"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "task_start_date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "task_end_date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hours"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "task_status"
+            }
+          ],
+          "style": { "width": "5%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center", "width": "10%" },
+          "type": "editButton",
+          "fieldName": "id"
+        },
+        {
+          "style": { "textAlign": "center", "width": "10%" },
+          "type": "deleteButton",
+          "fieldName": "id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

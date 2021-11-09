@@ -1,0 +1,182 @@
+{
+  "admin": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "user-entries-report"
+      },
+      {
+        "subMenuName": "Custom Report",
+        "linkTo": "custom-report"
+      },
+      {
+        "subMenuName": "Review Entries",
+        "linkTo": "review-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      },
+      {
+        "subMenuName": "Task Report",
+        "linkTo": "task-report"
+      },
+      {
+        "subMenuName": "Defaulter List",
+        "linkTo": "defaulter-list"
+      },
+      {
+        "subMenuName": "Monthly Rolling Report",
+        "linkTo": "monthly-rolling-report"
+      },
+      {
+        "subMenuName": "Summary Team Report",
+        "linkTo": "team-report"
+      },
+      {
+        "subMenuName": "Detailed Team Report",
+        "linkTo": "custom-report-new"
+      }
+    ]
+  },
+  "client": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "UserEntries"
+      },
+      {
+        "subMenuName": "Custom Report",
+        "linkTo": "custom-report"
+      },
+      {
+        "subMenuName": "Review Entries",
+        "linkTo": "review-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      },
+      {
+        "subMenuName": "Task Report",
+        "linkTo": "task-report"
+      },
+      {
+        "subMenuName": "Summary Report",
+        "linkTo": "summary-report"
+      }
+    ]
+  },
+  "employee": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "user-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      }
+    ]
+  },
+  "pm": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "user-entries-report"
+      },
+      {
+        "subMenuName": "Custom Report",
+        "linkTo": "custom-report"
+      },
+      {
+        "subMenuName": "Review Entries",
+        "linkTo": "review-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      },
+      {
+        "subMenuName": "Task Report",
+        "linkTo": "task-report"
+      },
+      {
+        "subMenuName": "Summary Report",
+        "linkTo": "summary-report"
+      },
+      {
+        "subMenuName": "Detailed Team Report",
+        "linkTo": "custom-report-new"
+      }
+    ]
+  },
+  "pm_associate": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "user-entries-report"
+      },
+      {
+        "subMenuName": "Review Entries",
+        "linkTo": "review-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      },
+      {
+        "subMenuName": "Custom Report",
+        "linkTo": "custom-report"
+      }
+    ]
+  },
+  "superadmin": {
+    "subMenu": [
+      {
+        "subMenuName": "User Entries",
+        "linkTo": "user-entries-report"
+      },
+      {
+        "subMenuName": "Custom Report",
+        "linkTo": "custom-report"
+      },
+      {
+        "subMenuName": "Review Entries",
+        "linkTo": "review-entries-report"
+      },
+      {
+        "subMenuName": "Reference Number Report",
+        "linkTo": "reference-number-report"
+      },
+      {
+        "subMenuName": "Task Report",
+        "linkTo": "task-report"
+      },
+      {
+        "subMenuName": "Defaulter List",
+        "linkTo": "defaulter-list"
+      },
+      {
+        "subMenuName": "Summary Report",
+        "linkTo": "summary-report"
+      },
+      {
+        "subMenuName": "Management Report",
+        "linkTo": "management-report"
+      },
+      {
+        "subMenuName": "Monthly Rolling Report",
+        "linkTo": "monthly-rolling-report"
+      },
+      {
+        "subMenuName": "Summary Team Report",
+        "linkTo": "team-report"
+      },
+      {
+        "subMenuName": "Detailed Team Report",
+        "linkTo": "custom-report-new"
+      }
+    ]
+  }
+}

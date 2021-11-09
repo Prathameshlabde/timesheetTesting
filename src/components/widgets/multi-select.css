@@ -1,0 +1,19 @@
+.multiselect-main-div {
+  overflow: auto;
+  width: 200px;
+  height: 148px;
+  border: 1px solid #00000045;
+}
+.mlti-list-label-style {
+  font-size: 12px;
+}
+.multi-list-main-div {
+  display: flex;
+  cursor: pointer;
+}
+.multi-list-main-div:hover {
+  background-color: rgb(244, 244, 244);
+}
+.selected-class {
+  background-color: #e6ebed;
+}

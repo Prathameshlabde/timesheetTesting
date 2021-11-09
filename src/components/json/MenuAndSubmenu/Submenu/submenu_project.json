@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "subMenu": [
+      {
+        "subMenuName": "Projects",
+        "linkTo": "projects"
+      },
+      {
+        "subMenuName": "Tasks",
+        "linkTo": "project-tasks"
+      },
+      {
+        "subMenuName": "Subtasks",
+        "linkTo": "project-subtasks"
+      },
+      {
+        "subMenuName": "Sprints",
+        "linkTo": "project-sprints"
+      },
+      {
+        "subMenuName": "Categories",
+        "linkTo": "project-categories"
+      },
+      {
+        "subMenuName": "Technologies",
+        "linkTo": "project-technologies"
+      },
+      {
+        "subMenuName": "Teams",
+        "linkTo": "project-teams"
+      }
+    ]
+  },
+  "client": {
+    "subMenu": [
+      {
+        "subMenuName": "Projects",
+        "linkTo": "projects"
+      },
+      {
+        "subMenuName": "Tasks",
+        "linkTo": "project-tasks"
+      },
+      {
+        "subMenuName": "Subtasks",
+        "linkTo": "project-subtasks"
+      },
+      {
+        "subMenuName": "Sprints",
+        "linkTo": "project-sprints"
+      },
+      {
+        "subMenuName": "Categories",
+        "linkTo": "project-categories"
+      }
+    ]
+  },
+  "employee": {
+    "subMenu": [
+      {
+        "subMenuName": "Projects",
+        "linkTo": "projects"
+      },
+      {
+        "subMenuName": "Tasks",
+        "linkTo": "project-tasks"
+      },
+      {
+        "subMenuName": "Subtasks",
+        "linkTo": "project-subtasks"
+      },
+      {
+        "subMenuName": "Sprints",
+        "linkTo": "project-sprints"
+      },
+      {
+        "subMenuName": "Categories",
+        "linkTo": "project-categories"
+      }
+    ]
+  },
+  "pm": {
+    "subMenu": [
+      {
+        "subMenuName": "Projects",
+        "linkTo": "projects"
+      },
+      {
+        "subMenuName": "Tasks",
+        "linkTo": "project-tasks"
+      },
+      {
+        "subMenuName": "Subtasks",
+        "linkTo": "project-subtasks"
+      },
+      {
+        "subMenuName": "Sprints",
+        "linkTo": "project-sprints"
+      },
+      {
+        "subMenuName": "Categories",
+        "linkTo": "project-categories"
+      }
+    ]
+  },
+  "superadmin": {
+    "subMenu": [
+      {
+        "subMenuName": "Projects",
+        "linkTo": "projects"
+      },
+      {
+        "subMenuName": "Tasks",
+        "linkTo": "project-tasks"
+      },
+      {
+        "subMenuName": "Subtasks",
+        "linkTo": "project-subtasks"
+      },
+      {
+        "subMenuName": "Sprints",
+        "linkTo": "project-sprints"
+      },
+      {
+        "subMenuName": "Categories",
+        "linkTo": "project-categories"
+      },
+      {
+        "subMenuName": "Technologies",
+        "linkTo": "project-technologies"
+      },
+      {
+        "subMenuName": "Teams",
+        "linkTo": "project-teams"
+      }
+    ]
+  }
+}

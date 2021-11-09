@@ -1,0 +1,32 @@
+.dash-title{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #767676;
+    padding: 3px;
+}
+
+.dash-title hr {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#dtpBilling{
+    font-size: 13px;
+}
+
+.Dropdown-root {
+    font-size: 13px;
+    text-align: left;
+}
+
+.row-dash{
+    display: flex;
+}
+
+@media screen and (max-width: 991px) {
+    .row-dash{
+        display: block;
+    }
+}

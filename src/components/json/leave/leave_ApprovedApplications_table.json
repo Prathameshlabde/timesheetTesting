@@ -1,0 +1,278 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "No"
+            }
+          ],
+          "style": {
+            "width": "2%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Employee Name"
+            }
+          ],
+          "style": { "width": "10%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start Date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "End Date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Contact Number(s)"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Comments"
+            }
+          ],
+          "style": {
+            "width": "20%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "TL Approval"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "HR Approval"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "TL/HR Comments"
+            }
+          ],
+          "style": {
+            "width": "15%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "Balance Leave"
+            }
+          ],
+          "style": {
+            "width": "6%",
+            "textAlign": "right"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Status"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Sr.No."
+            }
+          ],
+          "style": { "width": "2%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "ename"
+            }
+          ],
+          "style": { "width": "10%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "start_date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "end_date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "contact_numbers"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "comments"
+            }
+          ],
+          "style": {
+            "width": "20%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "tl_approval"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "hr_approval"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "tl_hr_comments"
+            }
+          ],
+          "style": {
+            "width": "15%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "balanceleave"
+            }
+          ],
+          "style": {
+            "width": "6%",
+            "textAlign": "right"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "status"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "text",
+          "isDescription": false
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

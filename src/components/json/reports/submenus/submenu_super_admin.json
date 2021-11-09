@@ -1,0 +1,36 @@
+{
+  "subMenu": [
+    {
+      "subMenuName": "User Entries",
+      "linkTo": "/reports/userEntries"
+    },
+    {
+      "subMenuName": "Custom Report",
+      "linkTo": "/reports/customReport"
+    },
+    {
+      "subMenuName": "Management Report",
+      "linkTo": "/reports/managementReport"
+    },
+    {
+      "subMenuName": "Reference Number Report",
+      "linkTo": "/reports/referenceNumberReport"
+    },
+    {
+      "subMenuName": "Review Entries",
+      "linkTo": "/reports/reviewEntries"
+    },
+    {
+      "subMenuName": "Task Report",
+      "linkTo": "/reports/taskReport"
+    },
+    {
+      "subMenuName": "Summary Report",
+      "linkTo": "/reports/summaryReport"
+    },
+    {
+      "subMenuName": "Team Report",
+      "linkTo": "/reports/teamReport"
+    }
+  ]
+}

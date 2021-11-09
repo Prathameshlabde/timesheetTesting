@@ -1,0 +1,50 @@
+{
+  "superadmin": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves"
+      },
+      {
+        "subMenuName": "Apply Leave"
+      },
+      {
+        "subMenuName": "Leave Applications"
+      },
+      {
+        "subMenuName": "Approved Leave"
+      },
+      {
+        "subMenuName": "UnApproved Leave"
+      },
+      {
+        "subMenuName": "Applied Leaves"
+      },
+
+      {
+        "subMenuName": "Leave Management"
+      }
+    ]
+  },
+  "to_all": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves"
+      },
+      {
+        "subMenuName": "Apply Leave"
+      },
+      {
+        "subMenuName": "Leave Applications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications"
+      },
+      {
+        "subMenuName": "Applied Leaves"
+      }
+    ]
+  }
+}

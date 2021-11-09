@@ -1,0 +1,271 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": {
+            "width": "43%",
+            "color": "#192028"
+          },
+          "type": "text",
+          "isDescription": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Sprint Task Ref. No."
+            }
+          ],
+          "style": { "color": "#192028" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Main Task Ref. No."
+            }
+          ],
+          "style": { "color": "#192028" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Sub Task Ref. No."
+            }
+          ],
+          "style": { "color": "#192028" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start"
+            }
+          ],
+          "style": { "color": "#192028" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Finish"
+            }
+          ],
+          "style": { "color": "#192028" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Duration (Hrs)"
+            }
+          ],
+          "style": {
+            "textAlign": "right",
+            "color": "#192028"
+          },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Billable (Hrs)"
+            }
+          ],
+          "style": {
+            "textAlign": "right",
+            "color": "#192028"
+          },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "2%",
+            "color": "#192028"
+          },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "2%",
+            "color": "#192028"
+          },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "0%",
+            "color": "#192028"
+          },
+          "type": ""
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "2%",
+            "color": "#192028"
+          },
+          "type": "text"
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "pname"
+            }
+          ],
+          "style": {
+            "width": "43%"
+          },
+          "type": "text",
+          "dataTitle": "Project"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "sprint_ref_no"
+            }
+          ],
+          "type": "text",
+          "isDescription": false,
+          "dataTitle": "Sprint Task Ref. No."
+        },
+        {
+          "values": [
+            {
+              "fieldName": "ref_no"
+            }
+          ],
+          "type": "text",
+          "isDescription": false,
+          "dataTitle": "Main Task Ref. No."
+        },
+        {
+          "values": [
+            {
+              "fieldName": "sub_ref_no"
+            }
+          ],
+          "type": "text",
+          "isDescription": false,
+          "dataTitle": "Sub Task Ref. No."
+        },
+        {
+          "values": [
+            {
+              "fieldName": "start_time"
+            }
+          ],
+          "type": "text",
+          "dataTitle": "Start"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "end_time"
+            }
+          ],
+          "type": "text",
+          "dataTitle": "Finish"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+          "style": {
+            "textAlign": "right"
+          },
+          "type": "text",
+          "dataTitle": "Duration (Hrs)"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "bilable_hrs"
+            }
+          ],
+          "style": {
+            "textAlign": "right"
+          },
+          "type": "text",
+          "dataTitle": "Billable (Hrs)"
+        },
+        {
+          "style": {
+            "width": "2%"
+          },
+          "type": "editButton",
+          "fieldName": "bill_id"
+        },
+        {
+          "style": {
+            "width": "2%"
+          },
+          "type": "deleteButton",
+          "fieldName": "bill_id"
+        },
+        {
+          "style": {
+            "width": "2%"
+          },
+          "type": "duplicateButton",
+          "fieldName": "bill_id"
+        },
+        {
+          "style": {
+            "width": "0%"
+          },
+          "type": "",
+          "fieldName": "lock_date",
+          "dataTitle": "lock_date"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "description"
+            }
+          ],
+          "style": {},
+          "type": "text",
+          "isDescription": true
+        }
+      ],
+      "style": {},
+      "isDescriptionDetails": true,
+      "columnInDescriptionTo": 10
+    }
+  ],
+  "style": {}
+}

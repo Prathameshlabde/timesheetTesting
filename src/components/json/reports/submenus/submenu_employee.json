@@ -1,0 +1,11 @@
+{
+  "subMenu": [
+    {
+      "subMenuName": "User Entries",
+      "linkTo": "/UserEntries"
+    },
+    {
+      "subMenuName": "Reference Number Report"
+    }
+  ]
+}

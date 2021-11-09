@@ -1,0 +1,147 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Date"
+            }
+          ],
+          "style": {
+            "width": "18%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Employee"
+            }
+          ],
+          "style": {
+            "width": "18%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Available Hrs"
+            }
+          ],
+          "style": {
+            "width": "15%",
+            "textAlign": "Right"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Total Duration"
+            }
+          ],
+          "style": {
+            "width": "18%",
+            "textAlign": "Right"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Billable"
+            }
+          ],
+          "style": {
+            "width": "18%",
+            "textAlign": "Right"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Non Billable"
+            }
+          ],
+          "style": {
+            "width": "18%",
+            "textAlign": "Right"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "billing_date"
+            }
+          ],
+          "style": { "width": "18%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "emp_name"
+            }
+          ],
+          "style": { "width": "18%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "available_hrs"
+            }
+          ],
+          "style": { "width": "15%", "textAlign": "Right" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+          "style": { "width": "18%", "textAlign": "Right" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "bilable_hrs"
+            }
+          ],
+          "style": { "width": "18%", "textAlign": "Right" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "nonbilable_hrs"
+            }
+          ],
+          "style": { "width": "18%", "color": "red", "textAlign": "Right" },
+          "type": "text"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

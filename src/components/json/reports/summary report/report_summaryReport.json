@@ -1,0 +1,98 @@
+{
+  "requiredComponents": [
+    {
+      "divnumber": "1",
+      "division": [
+        {
+          "label": "From Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "To Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Is custom Date Range?",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    },
+    {
+      "divnumber": "2",
+      "division": [
+        {
+          "label": "Summary By",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Category",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Support",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    },
+    {},
+    {
+      "divnumber": "3",
+      "division": [
+        {
+          "label": "",
+          "componentType": "Button",
+          "style": {},
+          "accessTO": [
+            "pm",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {}
+}

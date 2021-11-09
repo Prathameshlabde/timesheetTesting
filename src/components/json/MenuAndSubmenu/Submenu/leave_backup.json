@@ -1,0 +1,146 @@
+{
+  "admin": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves",
+        "linkTo": "leave-balanceLeaves"
+      },
+      {
+        "subMenuName": "Apply Leave",
+        "linkTo": "leave-applyLeave"
+      },
+      {
+        "subMenuName": "Leave Applications",
+        "linkTo": "leave-leaveApplications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications",
+        "linkTo": "leave-approvedLeaveApplications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications",
+        "linkTo": "leave-unApprovedLeaveApplications"
+      },
+      {
+        "subMenuName": "Applied Leaves",
+        "linkTo": "leave-appliedLeaves"
+      }
+    ]
+  },
+  "client": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves",
+        "linkTo": "leave-balanceLeaves"
+      },
+      {
+        "subMenuName": "Apply Leave",
+        "linkTo": "leave-applyLeave"
+      },
+      {
+        "subMenuName": "Leave Applications",
+        "linkTo": "leave-leaveApplications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications",
+        "linkTo": "leave-approvedLeaveApplications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications",
+        "linkTo": "leave-unApprovedLeaveApplications"
+      },
+      {
+        "subMenuName": "Applied Leaves",
+        "linkTo": "leave-appliedLeaves"
+      }
+    ]
+  },
+  "employee": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves",
+        "linkTo": "leave-balanceLeaves"
+      },
+      {
+        "subMenuName": "Apply Leave",
+        "linkTo": "leave-applyLeave"
+      },
+      {
+        "subMenuName": "Leave Applications",
+        "linkTo": "leave-leaveApplications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications",
+        "linkTo": "leave-approvedLeaveApplications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications",
+        "linkTo": "leave-unApprovedLeaveApplications"
+      },
+      {
+        "subMenuName": "Applied Leaves",
+        "linkTo": "leave-appliedLeaves"
+      }
+    ]
+  },
+  "pm": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves",
+        "linkTo": "leave-balanceLeaves"
+      },
+      {
+        "subMenuName": "Apply Leave",
+        "linkTo": "leave-applyLeave"
+      },
+      {
+        "subMenuName": "Leave Applications",
+        "linkTo": "leave-leaveApplications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications",
+        "linkTo": "leave-approvedLeaveApplications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications",
+        "linkTo": "leave-unApprovedLeaveApplications"
+      },
+      {
+        "subMenuName": "Applied Leaves",
+        "linkTo": "leave-appliedLeaves"
+      }
+    ]
+  },
+  "superadmin": {
+    "subMenu": [
+      {
+        "subMenuName": "Balance Leaves",
+        "linkTo": "leave-balanceLeaves"
+      },
+      {
+        "subMenuName": "Apply Leave",
+        "linkTo": "leave-applyLeave"
+      },
+      {
+        "subMenuName": "Leave Applications",
+        "linkTo": "leave-leaveApplications"
+      },
+      {
+        "subMenuName": "Approved Leave Applications",
+        "linkTo": "leave-approvedLeaveApplications"
+      },
+      {
+        "subMenuName": "UnApproved Leave Applications",
+        "linkTo": "leave-unApprovedLeaveApplications"
+      },
+      {
+        "subMenuName": "Applied Leaves",
+        "linkTo": "leave-appliedLeaves"
+      },
+      {
+        "subMenuName": "Leave Management",
+        "linkTo": "leave-leaveManagement"
+      }
+    ]
+  }
+}

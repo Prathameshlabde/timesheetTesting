@@ -1,0 +1,151 @@
+.page-content-userprofile {
+  width: 100%;
+  padding: 0% 3%;
+}
+
+.page-content-userprofile .pr-container {
+  border: 0px;
+}
+
+.default-projects-button {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #054770;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #e6ebed;
+  /* -webkit-box-shadow: 2px 1px 8px 1px #bebebe; */
+  /* box-shadow: 2px 1px 8px 1px #bebebe; */
+  margin-top: 4%;
+}
+.set-profile-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #054770;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #e6ebed;
+  /* -webkit-box-shadow: 2px 1px 8px 1px #bebebe; */
+  /* box-shadow: 2px 1px 8px 1px #bebebe; */
+  margin-top: 4%;
+}
+.multiselect-main-div {
+  width: 100%;
+  height: 235px;
+}
+.vertical-seperator {
+  height: 278px;
+  margin-right: 10%;
+  border: 1px solid #7170702e;
+}
+.defaultProjectsMainDiv {
+  padding-left: 2%;
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+}
+.defaultProjectsMainDiv > div {
+  width: 100%;
+}
+
+.collapsible {
+  margin: 0 5px;
+  padding: 0 5px;
+  background: #ededed;
+  cursor: pointer;
+  height: 32px;
+  width: unset;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid #a59f9f;
+  box-shadow: 0px 3px 2px 0px #e6ebed;
+  padding-top: 5px;
+}
+
+/* .active, .collapsible:hover {
+  background-color: #555;
+} */
+
+.hidePasswordForm {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.hideProfileForm {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.expand-icon-form {
+  float: right;
+}
+
+.profile-form {
+  padding: 10px;
+}
+
+.pr-top-level-section1-updateProfile {
+  padding: 1%;
+}
+
+.pr-top-level-section1-updateProfile div[class^="MuiFormControl"] {
+  margin-top: 2px !important;
+}
+
+.userProfileRow {
+  margin-top: 1%;
+  background: #f5f5f5;
+  border: 1px solid #9b9a9a;
+}
+
+.pr-dashboardTabs,
+.pr-userProfileTabs {
+  margin-top: 1%;
+}
+
+.pr-userProfileTabs header {
+  background-color: #f5f5f5;
+}
+
+.mobilePasswordChange {
+  display: none;
+}
+
+@media screen and (max-width: 1152px) {
+  .collapsible-userDetails,
+  .update-profile-details,
+  .pr-dashboardTabs .pr-userProfileTabs {
+    display: none;
+  }
+  .mobilePasswordChange {
+    background: #f5f5f5;
+    border: 1px solid #9b9a9a;
+    display: block;
+  }
+}
+/* for ipad
+       */
+@media only screen and (max-width: 1152px) and (min-width: 768px) {
+  .page-content-userprofile .pr-container .pr-row .pr-col-2 {
+    width: 37%;
+  }
+}
+
+/* for Iphone
+       */
+@media screen and (max-width: 767px) {
+  .page-content-userprofile .pr-container .pr-row {
+    flex-direction: column;
+  }
+  .page-content-userprofile .pr-container .pr-row .pr-col-4 {
+    width: 100%;
+  }
+}

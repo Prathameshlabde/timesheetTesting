@@ -1,0 +1,272 @@
+{
+  "admin": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Users",
+        "tabIndex": "2",
+        "linkTo": "Users",
+        "iconName": "people"
+      },
+      {
+        "name": "Clients",
+        "tabIndex": "2",
+        "linkTo": "clients",
+        "iconName": "account_box"
+      },
+      {
+        "name": "Projects",
+        "tabIndex": "3",
+        "linkTo": "",
+        "iconName": "work"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  },
+  "client": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Users",
+        "tabIndex": "2",
+        "linkTo": "Users",
+        "iconName": "people"
+      },
+      {
+        "name": "Projects",
+        "tabIndex": "3",
+        "linkTo": "",
+        "iconName": "work"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Clients",
+        "tabIndex": "2",
+        "linkTo": "clients",
+        "iconName": "account_box"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  },
+  "employee": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  },
+  "pm": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Projects",
+        "tabIndex": "3",
+        "linkTo": "",
+        "iconName": "work"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Clients",
+        "tabIndex": "2",
+        "linkTo": "clients",
+        "iconName": "account_box"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  },
+  "pm_associate": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  },
+  "superadmin": {
+    "menuList": [
+      {
+        "name": "Dashboard",
+        "tabIndex": "1",
+        "linkTo": "dashboard",
+        "iconName": "dashboard"
+      },
+      {
+        "name": "My Entries",
+        "tabIndex": "1",
+        "linkTo": "myEntries",
+        "iconName": "assignment"
+      },
+      {
+        "name": "Projects",
+        "tabIndex": "3",
+        "linkTo": "",
+        "iconName": "work"
+      },
+      {
+        "name": "Reports",
+        "tabIndex": "5",
+        "linkTo": "",
+        "iconName": "show_chart"
+      },
+      {
+        "name": "Clients",
+        "tabIndex": "2",
+        "linkTo": "clients",
+        "iconName": "account_box"
+      },
+      {
+        "name": "Users",
+        "tabIndex": "2",
+        "linkTo": "Users",
+        "iconName": "people"
+      },
+      {
+        "name": "Holidays",
+        "tabIndex": "4",
+        "linkTo": "holidays",
+        "iconName": "event"
+      },
+      {
+        "name": "Leave",
+        "tabIndex": "7",
+        "linkTo": "",
+        "iconName": "time_to_leave"
+      }
+    ]
+  }
+}

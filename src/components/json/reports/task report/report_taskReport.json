@@ -1,0 +1,75 @@
+{
+  "requiredComponents": [
+    {
+      "divnumber": "1",
+      "division": [
+        {
+          "label": "From Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "To Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "Employee",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"],
+          "Note": "Note: Inactive Employees are in red."
+        }
+      ]
+    },
+    {
+      "divnumber": "2",
+      "division": [
+        {
+          "label": "Project",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"],
+          "Note": "Note: Inactive Projects are in red."
+        },
+        {
+          "label": "Sprint",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"],
+          "Note": "Note: Inactive Sprints are in red."
+        }
+      ]
+    },
+    {
+      "divnumber": "3",
+      "division": [
+        {
+          "label": "Task Status",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "Billable Hours Only",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        }
+      ]
+    },
+    {
+      "divnumber": "4",
+      "division": [
+        {
+          "componentType": "Button",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        }
+      ]
+    }
+  ],
+  "style": {}
+}

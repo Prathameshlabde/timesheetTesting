@@ -1,0 +1,264 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Date"
+            }
+          ],
+          "style": {
+            "width": "7%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Employee"
+            }
+          ],
+          "style": {
+            "width": "7%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "Start"
+            }
+          ],
+
+          "style": { "width": "7%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Finish"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "Sprint Ref No"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Main Task Ref No"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Sub Task Ref No"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Duration"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Billable"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Non Billable"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "billing_date"
+            }
+          ],
+          "style": {
+            "width": "7%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "fname"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "pname"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "start_time"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "end_time"
+            }
+          ],
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "sprint_ref_no"
+            }
+          ],
+          "style": { "width": "8%", "textAling": "left" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "ref_no"
+            }
+          ],
+          "style": { "width": "8%", "textAling": "left" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "sub_ref_no"
+            }
+          ],
+          "style": { "width": "8%", "textAling": "left" },
+          "type": "text",
+          "isDescription": false
+        },
+
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+
+          "style": { "width": "7%", "textAling": "left" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "bilable_hrs"
+            }
+          ],
+
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "non_bilable_hrs"
+            }
+          ],
+
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "description"
+            }
+          ],
+          "style": {},
+          "type": "text",
+          "isDescription": true
+        }
+      ],
+      "style": {},
+      "isDescriptionDetails": true
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

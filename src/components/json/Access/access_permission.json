@@ -1,0 +1,26 @@
+{
+  "Clients": ["admin", "superadmin", "pm"],
+  "Projects": ["admin", "superadmin", "pm", "employee", "pm_associate"],
+  "Users": ["admin", "superadmin"],
+  "CategoriesModule": ["admin", "superadmin", "pm"],
+  "ProjectsModule": ["admin", "superadmin", "pm"],
+  "SprintsModule": ["admin", "superadmin", "pm"],
+  "SubtasksModule": ["admin", "superadmin", "pm"],
+  "TasksModule": ["admin", "superadmin", "pm"],
+  "CustomReport": ["admin", "superadmin", "pm", "pm_associate"],
+  "CustomReportNew": ["admin", "superadmin", "pm", "pm_associate"],
+  "ManagementReport": ["admin", "superadmin", "pm"],
+  "ReferenceNumberReport": [
+    "admin",
+    "superadmin",
+    "pm",
+    "employee",
+    "pm_associate"
+  ],
+  "ReviewEntries": ["admin", "superadmin", "pm", "pm_associate"],
+  "SummaryReport": ["admin", "superadmin", "pm"],
+  "TaskReport": ["admin", "superadmin", "pm"],
+  "UserEntries": ["admin", "superadmin", "pm", "employee", "pm_associate"],
+  "TeamReport": ["admin", "superadmin"],
+  "MonthlyRollingReport": ["admin", "superadmin"]
+}

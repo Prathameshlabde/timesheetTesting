@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Name"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Upcoming Leave"
+            }
+          ],
+          "style": {
+            "width": "51%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Balance"
+            }
+          ],
+          "style": {
+            "width": "12%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Pending"
+            }
+          ],
+          "style": {
+            "width": "12%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "ename"
+            }
+          ],
+          "isDescription": false,
+          "isSerialNo": true,
+          "style": { "width": "25%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "upcomingLeaveDate"
+            }
+          ],
+          "style": { "width": "51%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "balanceLeaves"
+            }
+          ],
+          "style": { "width": "12%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "pendingLeaves"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "12%" },
+          "type": "text"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

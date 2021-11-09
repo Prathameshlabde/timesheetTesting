@@ -1,0 +1,32 @@
+{
+  "subMenu": [
+    {
+      "subMenuName": "User Entries",
+      "linkTo": "/UserEntries"
+    },
+    {
+      "subMenuName": "Custom Report",
+      "linkTo": "/tasks"
+    },
+    {
+      "subMenuName": "Reference Number Report",
+      "linkTo": "/tasks"
+    },
+    {
+      "subMenuName": "Review Entries",
+      "linkTo": "/tasks"
+    },
+    {
+      "subMenuName": "Task Report",
+      "linkTo": "/tasks"
+    },
+    {
+      "subMenuName": "Summary Report",
+      "linkTo": "/tasks"
+    },
+    {
+      "subMenuName": "Team Report",
+      "linkTo": "/reports/teamReport"
+    }
+  ]
+}

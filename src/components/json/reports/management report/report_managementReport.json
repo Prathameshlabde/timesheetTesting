@@ -1,0 +1,71 @@
+{
+  "requiredComponents": [
+    {
+      "divnumber": "1",
+      "division": [
+        {
+          "label": "From Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "To Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "Project",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"],
+          "Note": "Note: Inactive Projects are in red."
+        },
+        {
+          "label": "Employee",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"],
+          "Note": "Note: Inactive Employees are in red."
+        }
+      ]
+    },
+    {
+      "divnumber": "2",
+      "division": [
+        {
+          "label": "Sort By",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "Category",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        },
+        {
+          "label": "Support",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        }
+      ]
+    },
+    {},
+    {
+      "divnumber": "4",
+      "division": [
+        {
+          "label": "",
+          "componentType": "Button",
+          "style": {},
+          "accessTO": ["employee", "pm", "admin", "superadmin", "client"]
+        }
+      ]
+    }
+  ],
+  "style": {}
+}

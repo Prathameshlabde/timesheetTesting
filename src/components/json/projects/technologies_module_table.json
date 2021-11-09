@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Technology Name"
+            }
+          ],
+          "style": {
+            "width": "16%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Active/InActive"
+            }
+          ],
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "name"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "tech_id"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "status_flag"
+            },
+            {
+              "fieldName": "tech_id"
+            }
+          ],
+          "style": {
+            "width": "12%",
+            "textAlign": "center"
+          },
+          "type": "switchButton"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

@@ -1,0 +1,213 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 16px;
+  padding-bottom: 10px;
+}
+
+.text-field {
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e6ebed;
+  box-sizing: border-box;
+}
+
+.btn-style {
+  border-radius: 4px;
+  background-color: #054770;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.lbl-style {
+  color: white;
+  float: left;
+  font-size: 14px;
+}
+.login-title {
+  font-size: 1vw;
+}
+.logo-style {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.login-main-div {
+  background: #2a2a2a;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.login-div .container .text-field {
+  border: none;
+  background: linear-gradient(to top, rgb(48, 48, 48) 0%, rgb(42, 42, 42) 72%);
+  color: #d4d4d4;
+  margin-bottom: 10px;
+}
+
+.login-div .container {
+  color: #696969;
+}
+
+.login-div {
+  background-color: #1e1e1e;
+  margin: 1% auto 12% auto;
+  /* border: 1px solid #888; */
+  width: 20%;
+  text-align: center;
+  height: 30%;
+  vertical-align: middle;
+  border-radius: 5px;
+  color: #fefefe;
+  box-shadow: 1px 1px 11px 0px black;
+}
+
+.login-div-forgot-pass {
+  background-color: #ffffff;
+  margin: 1% auto 12% auto;
+  width: 20%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+  color: #000000;
+  box-shadow: 1px 1px 11px 0px black;
+}
+
+.text-field-FRGT {
+  border-radius: 4px;
+  width: 98%;
+  margin: 8px 0;
+  /* -webkit-box-sizing: border-box; */
+  height: 30px;
+  background-color: #2a2a2a1a;
+}
+
+.btn-style-FRGT-cancel {
+  border-radius: 4px;
+  background-color: #616161;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 95%;
+  height: 74%;
+}
+
+.btn-style-FRGT-submit {
+  border-radius: 4px;
+  background-color: #054770;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 95%;
+  height: 74%;
+}
+.FRGT-buttons {
+  display: flex;
+}
+
+/* //For Tab */
+@media only screen and (max-width: 1152px) and (min-width: 768px) {
+  .loginpage-div {
+    height: 80%;
+  }
+
+  .login-div {
+    height: 42%;
+    width: 50%;
+    margin: 1% auto 0% auto;
+  }
+  .login-title {
+    font-size: 2vw;
+  }
+  .FRGT-buttons {
+    flex-direction: column;
+  }
+}
+
+/* for Iphone
+ */
+@media screen and (max-width: 767px) {
+  .loginpage-div {
+    height: 70%;
+  }
+
+  .login-div {
+    width: 70%;
+    height: 75%;
+    margin: 1% auto 0% auto;
+  }
+
+  .login-title {
+    font-size: 4vw;
+  }
+  .FRGT-buttons {
+    flex-direction: column;
+  }
+}
+
+.pro-popup-main-div {
+  background-color: #eceff0;
+  /* //#0095da; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-popup-sub-div1 {
+  height: 76%;
+  color: #e6ebed;
+  padding: 2%;
+  text-align: center;
+}
+
+.pro-popup-sub-div1-upper {
+  height: 80%;
+}
+
+.pro-popup-sub-div1-contact {
+  height: 16%;
+  color: #e6ebed;
+}
+
+.pro-popup-sub-div2 {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.pro-popup-btn {
+  background-color: #f36618;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+}
+
+.boxShadowSpecific {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}

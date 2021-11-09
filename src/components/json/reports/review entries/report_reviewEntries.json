@@ -1,0 +1,157 @@
+{
+  "requiredComponents": [
+    {
+      "divnumber": "1",
+      "division": [
+        {
+          "label": "From Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "To Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Employee",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ],
+          "Note": "Note: Inactive Employees are in red."
+        }
+      ]
+    },
+    {
+      "divnumber": "2",
+      "division": [
+        {
+          "label": "Project",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ],
+          "Note": "Note: Inactive Projects are in red."
+        },
+        {
+          "label": "Task",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "admin",
+            "superadmin",
+            "pm_associate",
+            "client"
+          ]
+        },
+        {
+          "label": "Sort By",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    },
+    {
+      "divnumber": "3",
+      "division": [
+        {
+          "label": "Support",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Billable Hours Only",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        },
+        {
+          "label": "Non-Billable Hours Only",
+          "componentType": "CheckBox",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    },
+    {
+      "divnumber": "4",
+      "division": [
+        {
+          "label": "",
+          "componentType": "Button",
+          "style": {},
+          "accessTO": [
+            "employee",
+            "pm",
+            "pm_associate",
+            "admin",
+            "superadmin",
+            "client"
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {}
+}

@@ -1,0 +1,229 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "task_id"
+            }
+          ],
+          "style": {
+            "width": "00%",
+            "height": "0",
+            "color": "transparent"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Project"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Date"
+            }
+          ],
+          "style": {
+            "width": "8%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Finish"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "description"
+            }
+          ],
+          "style": {
+            "width": "20%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Reference Number"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Duration"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Billable"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": { "color": "#ff0000" },
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "task_id"
+            }
+          ],
+          "style": { "width": "0%", "color": "transparent", "height": "0" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "task_title"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false,
+          "isLink": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Category"
+            }
+          ],
+          "style": { "width": "10%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Description"
+            }
+          ],
+          "style": { "width": "30%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Estimated"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "5%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "total_estimated_hrs_spent"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "total_billable_hrs_spent"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "billable_hrs"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "total_estimated_hrs_before"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "total_billable_hrs_before"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "7%" },
+          "type": "text"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

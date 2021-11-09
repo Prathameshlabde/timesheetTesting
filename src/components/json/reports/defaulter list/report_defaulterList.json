@@ -1,0 +1,54 @@
+{
+  "requiredComponents": [
+    {
+      "divnumber": "1",
+      "division": [
+        {
+          "label": "From Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["admin", "superadmin"]
+        },
+        {
+          "label": "To Date",
+          "componentType": "DatePicker",
+          "style": {},
+          "accessTO": ["admin", "superadmin"]
+        }
+      ]
+    },
+    {
+      "divnumber": "2",
+      "division": [
+        {
+          "label": "Sort By",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["admin", "superadmin"]
+        },
+        {
+          "label": "View By",
+          "componentType": "DropdownList",
+          "style": {},
+          "accessTO": ["admin", "superadmin"]
+        }
+      ]
+    },
+    {
+      "divnumber": "3",
+      "division": []
+    },
+    {
+      "divnumber": "4",
+      "division": [
+        {
+          "label": "",
+          "componentType": "Button",
+          "style": {},
+          "accessTO": ["admin", "superadmin"]
+        }
+      ]
+    }
+  ],
+  "style": {}
+}

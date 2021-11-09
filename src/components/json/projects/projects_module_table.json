@@ -1,0 +1,196 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": { "textAlign": "center","width": "2%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Project Name"
+            }
+          ],
+          "style": {
+            "width": "16%"
+          },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "p.pname"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Start Date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "End Date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Estimated"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Client"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "headerBold",
+          "isDescription": false,
+          "sortBy": "c.company"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Edit"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Active/InActive"
+            }
+          ],
+          "style": { "width": "12%", "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Delete"
+            }
+          ],
+          "style": { "textAlign": "center" },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "style": { "textAlign": "center","width": "2%" },
+          "type": "checkbox",
+          "fieldName": "id"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "name"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "start_date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "end_date"
+            }
+          ],
+          "style": {
+            "width": "10%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+          "style": { "width": "8%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "company"
+            }
+          ],
+          "style": { "width": "16%" },
+          "type": "text"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "editButton",
+          "fieldName": "id"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "status_flag"
+            },
+            {
+              "fieldName": "id"
+            }
+          ],
+          "style": {
+            "width": "12%",
+            "textAlign": "center"
+          },
+          "type": "switchButton"
+        },
+        {
+          "style": { "textAlign": "center" },
+          "type": "deleteButton",
+          "fieldName": "id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

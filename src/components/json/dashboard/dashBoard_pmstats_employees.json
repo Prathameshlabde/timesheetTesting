@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "0%"
+          },
+          "type": ""
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Employee Name"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Total"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Billable"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Non Billable"
+            }
+          ],
+          "style": {
+            "width": "25%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "style": {
+            "width": "0%"
+          },
+          "type": "",
+          "fieldName": "emp_id",
+          "dataTitle": "emp_id"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "pname"
+            }
+          ],
+          "isDescription": false,
+          "isSerialNo": true,
+          "style": { "width": "25%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "estimated_hrs"
+            }
+          ],
+          "style": { "width": "25%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "bilable_hrs"
+            }
+          ],
+          "style": { "width": "25%" },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "non_bilable_hrs"
+            }
+          ],
+          "className": "pr-num-text",
+          "style": { "width": "25%" },
+          "type": "text"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}

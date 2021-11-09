@@ -1,0 +1,21 @@
+{
+  "numberColumns": [
+    "Duration",
+    "Billable",
+    "Non Billable",
+    "Billable %",
+    "Non Billable %",
+    "Available Hrs",
+    "Total Duration"
+  ],
+  "columnWidth": {
+    "Employee": "150",
+    "Project": "150",
+    "Description": "350",
+    "Reference Number": "150",
+    "Main Reference Number": "200",
+    "Sub Reference Number": "200",
+    "Link_ref_no": "200",
+    "Link_sub_ref_no": "1"
+  }
+}

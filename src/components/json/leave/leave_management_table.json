@@ -1,0 +1,563 @@
+{
+  "rows": [
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Sr.No"
+            }
+          ],
+          "style": {
+            "width": "2%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Employee"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "C/F"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Apr"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "May"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Jun"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Jul"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Aug"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Sep"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Oct"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Nov"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Dec"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Jan"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Feb"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Mar"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Total Leave"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Entitled To Date"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Excess/Balance"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Entitled"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Balance Leave"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "headerBold",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "2%"
+          },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": ""
+            }
+          ],
+          "style": {
+            "width": "2%"
+          },
+          "type": "text"
+        }
+      ],
+      "style": {},
+      "isHeader": true
+    },
+    {
+      "columns": [
+        {
+          "values": [
+            {
+              "fieldName": "Sr.No."
+            }
+          ],
+          "style": { "width": "2%" },
+          "type": "text"
+        },
+        {
+          "values": [
+            {
+              "fieldName": "ename"
+            }
+          ],
+          "style": {
+            "width": "9%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "carryforward"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "april"
+            },
+            {
+              "fieldName": "april_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "may"
+            },
+            {
+              "fieldName": "may_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "june"
+            },
+            {
+              "fieldName": "june_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "july"
+            },
+            {
+              "fieldName": "july_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "august"
+            },
+            {
+              "fieldName": "august_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "september"
+            },
+            {
+              "fieldName": "september_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "october"
+            },
+            {
+              "fieldName": "october_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "november"
+            },
+            {
+              "fieldName": "november_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "december"
+            },
+            {
+              "fieldName": "december_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "january"
+            },
+            {
+              "fieldName": "january_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "february"
+            },
+            {
+              "fieldName": "february_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "march"
+            },
+            {
+              "fieldName": "march_comments"
+            }
+          ],
+          "style": {
+            "width": "4%"
+          },
+          "type": "text",
+          "isNote": true
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Total Leave"
+            }
+          ],
+          "style": {
+            "width": "6%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "entitled"
+            }
+          ],
+          "style": {
+            "width": "6%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Excess/Balance"
+            }
+          ],
+          "style": {
+            "width": "6%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "year_entitled"
+            }
+          ],
+          "style": {
+            "width": "6%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+        {
+          "values": [
+            {
+              "fieldName": "Balance Leave"
+            }
+          ],
+          "style": {
+            "width": "5%"
+          },
+          "type": "text",
+          "isDescription": false
+        },
+
+        {
+          "style": { "width": "2%" },
+          "type": "saveButton",
+          "fieldName": "leave_id"
+        },
+        {
+          "style": { "width": "2%" },
+          "type": "editButton",
+          "fieldName": "leave_id"
+        }
+      ],
+      "style": {}
+    }
+  ],
+
+  "style": { "display": "flex", "height": "70%" }
+}
